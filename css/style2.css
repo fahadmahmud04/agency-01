@@ -26,7 +26,7 @@ body {
     background: linear-gradient(to right, #9859fc, #203376);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 94vh;
 
 }
 
@@ -69,8 +69,11 @@ li {
     transition: 0.3s;
 }
 
+/* all btn's hover section here */
 .nav-bar ul li:hover,
-.read-btn:hover {
+.read-btn:hover,
+.welc-btn:hover,
+.problem-btn:hover {
     transform: translateY(-5px);
 
 }
@@ -95,8 +98,8 @@ li {
     position: absolute;
     top: 30px;
     right: 0;
-    width: 60%;
-    height: 98%;
+    width: 58%;
+    height: 86%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -113,13 +116,14 @@ li {
 }
 
 .banner-txt {
-    width: 40%;
+    width: 42%;
     padding: 0px 0px 40px 0px;
+    margin: 0px 0px 0px 15px;
     height: auto;
 }
 
 .banner-img {
-    max-width: 50%;
+    max-width: 48%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -129,34 +133,235 @@ li {
 .banner-txt h1 {
     color: #fff;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.2em;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 .banner-txt p {
     margin: 0px;
     color: #fff;
     font-size: 16px;
-    text-align: left;
-
 }
 
 .banner-img img {
     width: 70%;
+    height: 100%;
     /* vertical-align: middle; */
 }
 
 .read-btn {
     font-size: 16px;
-    padding: 10px 30px;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    padding: 10px 40px;
     margin: 30px 0px 0px 0px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+/* finish banner area */
+
+/* welcome section here */
+/* welcome area section and problem area section are same */
+/* welcome and problem area classes are adjusted here */
+
+.welcome-area,
+.problem-area {
+    padding: 90px 0px;
+}
+
+.welcome-area .heading-div,
+.problem-area .problem-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.welcome-area .heading-div h2,
+.problem-area .problem-heading h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.border-head {
+    border-bottom: 1px solid #feb543;
+}
+
+.welcome-img,
+.problem-img {
+    padding: 40px 25%;
+}
+
+.welcome-img img,
+.problem-img img {
+    width: 100%;
+}
+
+.welcome-txt,
+.problem-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 10%;
+    text-align: center;
+}
+
+.welcome-txt p,
+.problem-txt p {
+    font-size: 16px;
+    padding: 20px 0px;
+    margin: 5px 0px 20px 0px;
+}
+
+.welc-btn,
+.problem-btn {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.09em;
+    padding: 10px 40px;
+    margin: 5px 0px 5px 0px;
     background-color: #feb543;
     color: #fff;
     border-radius: 25px;
     text-decoration: none;
     transition: 0.3s;
     cursor: pointer;
-    position: absolute;
+    display: block;
+}
+
+/* finish problem area  */
+/* finish welcome area here */
+
+/* service area here */
+.service-area {
+    background-image: url('../images/service-bg.png');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 200vh;
+    padding: 275px 0px 125px 0px;
+}
+
+.service-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px 90px 10px;
+}
+
+.service-heading h3 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.service-area .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 5%;
+
+}
+
+.items-1 img,
+.items-2 img,
+.items-3 img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.items-1,
+.items-2,
+.items-3 {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.service-title {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.items-1 p,
+.items-2 p,
+.items-3 p {
+    margin: 15px 20px;
+}
+
+/* service area finish */
+/* after service area the problem area is adjusted with welcome area  */
+/* why section here */
+.why {
+    background: linear-gradient(to right, #1b3374, #8f4fe8);
+    color: #fff;
+}
+
+.why .container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 10% 20px 10%;
+    text-align: center;
+}
+
+.why .container h2 {
+    font-size: 40px;
+    font-weight: 900;
+    border-bottom: 1px solid #fff;
+}
+
+.why .container p {
+    padding: 50px 0px 0px 0px;
+    font-size: 16px;
+}
+
+.content-container {
+    padding: 20px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-container .contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.detail-box {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.content-container .detail-box h3 {
+    font-size: 28px;
+    margin: 0px 0px 5px 0px;
+}
+
+.content-container .detail-box h6 {
+    font-size: 16px;
+    margin: 0px 0px 5px 0px;
+    font-weight: 500;
 }
