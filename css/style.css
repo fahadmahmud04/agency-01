@@ -10,12 +10,12 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Ubuntu', sans-serif; */
 
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-
 }
 
 h1,
@@ -28,6 +28,12 @@ body {
     background: #fff;
 }
 
+a {
+    display: inline-block !important;
+    position: relative !important;
+    transition: 0.2s !important;
+}
+
 .hero-area {
     background: linear-gradient(to right, #9859fc, #203376);
     background-position: center;
@@ -37,8 +43,8 @@ body {
 }
 
 header {
-    padding: 20px 0px;
-    margin: 0px 30px;
+    background: linear-gradient(to right, #9859fc, #203376);
+    padding: 20px 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -69,20 +75,16 @@ li {
     border-bottom: 2px solid #fff;
     margin: 0px 15px;
     padding: 0px 10px;
+    display: inline;
 
-}
-
-.nav-bar ul li {
-    transition: 0.3s;
 }
 
 /* all btn's hover section here */
-.nav-bar ul li:hover,
+.nav-bar ul li a:hover,
 .read-btn:hover,
 .welc-btn:hover,
 .problem-btn:hover {
-    transform: translateY(-5px);
-
+    transform: translateY(-3px);
 }
 
 .nav-bar a img {
@@ -199,7 +201,7 @@ li {
 }
 
 .border-head {
-    border-bottom: 1px solid #feb543;
+    border-bottom: 1px solid #4d3fa6;
 }
 
 .welcome-img,
@@ -236,7 +238,7 @@ li {
     letter-spacing: 0.09em;
     padding: 10px 40px;
     margin: 5px 0px 5px 0px;
-    background-color: #feb543;
+    background-color: #4d3fa6;
     color: #fff;
     border-radius: 25px;
     text-decoration: none;
@@ -374,7 +376,9 @@ li {
 
 /* why section finish */
 /* client section strat here */
-.client-section {}
+.client-section {
+    background: #fff;
+}
 
 .client-area {
     display: flex;
@@ -441,7 +445,7 @@ li {
 /* contact section start here */
 .contact-area {
     padding: 50px 0px;
-    background: linear-gradient(to bottom, #825ac4, #44249b);
+    background: linear-gradient(to right, #9859fc, #203376);
     margin: 0px 0px 50px 0px;
 }
 
@@ -779,10 +783,12 @@ form input[type=tel]:focus {
     transition: 0.3s;
     display: block;
     margin: 10px;
-    position: relative;
+
 }
 
 .footer-form form button:hover {
-
-    font-size: 19px;
+    background: transparent;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
 }
