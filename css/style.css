@@ -28,10 +28,15 @@ body {
     background: #fff;
 }
 
+section {
+    display: block !important;
+}
+
 a {
     display: inline-block !important;
     position: relative !important;
     transition: 0.2s !important;
+    text-decoration: none;
 }
 
 .hero-area {
@@ -51,7 +56,7 @@ header {
     gap: 250px;
 }
 
-header h2 {
+header a h2 {
     color: #fff;
     font-weight: 700;
     font-size: 30px;
@@ -714,6 +719,10 @@ form input[type=tel]:focus {
     margin: 5px;
 }
 
+.footer-container div a img {
+    width: 130px;
+}
+
 .footer-container div:nth-child(5) a i {
     background-color: transparent;
     font-size: 40px;
@@ -759,17 +768,15 @@ form input[type=tel]:focus {
 .footer-form form input {
     padding: 10px 40px;
     border-radius: 6px;
-    border: 5px solid #c5c4c4;
     resize: none;
     color: #203376;
     font-size: 16px;
-
+    border: none;
 }
 
-.foo form input:focus {
-    box-shadow: 0 0 5pt 2pt #D3D3D3;
+.footer-form form input:focus {
     outline: none;
-    border: none;
+
 }
 
 .footer-form form button {
@@ -791,4 +798,21 @@ form input[type=tel]:focus {
     color: #fff;
     transform: translateY(-2px);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+hr {
+    margin: 0px 20%;
+    color: #c5c4c4;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px 20% 25px 20%;
+
+}
+
+.copyright p {
+    color: #c5c4c4;
+    font-size: 16px;
+
 }
