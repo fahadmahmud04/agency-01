@@ -118,6 +118,7 @@ li {
     background-repeat: no-repeat;
 }
 
+
 .banner-area {
     display: flex;
     justify-content: flex-start;
@@ -745,6 +746,27 @@ form input[type=tel]:focus {
 
 .social-img a {
     margin: 0px 10px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background: transparent;
+
+}
+
+.social-img a:nth-child(1):hover {
+    background: #1771E6;
+}
+
+.social-img a:nth-child(2):hover {
+    background: #C7389D;
+}
+
+.social-img a:nth-child(3):hover {
+    background: #0961B8;
+}
+
+.social-img a:nth-child(4):hover {
+    background: #00A2E0;
 }
 
 .social-img a img {
