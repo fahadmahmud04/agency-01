@@ -16,7 +16,14 @@
 
     header {
         justify-content: space-between;
-        padding: 20px 40px 20px 15px;
+        gap: 460px;
+    }
+
+    .nav-bar ul li a {
+        border-bottom: 2px solid #fff;
+        margin: 0px 10px;
+        padding: 0px 5px;
+
     }
 
     .hero-area::before {
@@ -61,10 +68,6 @@
 
     .service-heading {
         margin: 30px 10px 50px 10px;
-    }
-
-    header {
-        gap: 50px;
     }
 
     .contact-area {

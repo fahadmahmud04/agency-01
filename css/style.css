@@ -106,9 +106,9 @@ li {
     display: none;
 }
 
-.nav-bar ul li:nth-child(6):hover,
-.nav-bar ul li:nth-child(7):hover {
-    transform: translateY(0);
+.nav-bar ul li:nth-child(6) a:hover,
+.nav-bar ul li:nth-child(7) a:hover {
+    transform: translateY(0px);
 }
 
 .hero-area::before {
