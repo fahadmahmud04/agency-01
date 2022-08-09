@@ -1,0 +1,115 @@
+/* tebelet responsive */
+@media (min-width: 300px) and (max-width: 768px) {
+
+    .nav-bar ul li a i {
+        display: initial;
+        font-size: 22px;
+    }
+
+    .nav-bar ul li:nth-child(1),
+    .nav-bar ul li:nth-child(2),
+    .nav-bar ul li:nth-child(3),
+    .nav-bar ul li:nth-child(4),
+    .nav-bar ul li:nth-child(5) {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 20px 40px 20px 15px;
+    }
+
+    .hero-area::before {
+        top: 95px;
+        height: 80vh;
+        width: 50%;
+    }
+
+    .banner-txt h1 {
+        font-size: 40px;
+    }
+
+    .banner-img {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .banner-img img {
+        width: 75%;
+    }
+
+
+    .hero-area {
+        height: 100vh;
+    }
+
+    .banner-area {
+        justify-content: center;
+        padding: 30px 0px;
+        margin: 0;
+    }
+
+    .service-area {
+
+        padding: 200px 0px 100px 0px;
+    }
+
+    .service-area {
+        height: 190vh;
+
+    }
+
+    .service-heading {
+        margin: 30px 10px 50px 10px;
+    }
+
+    header {
+        gap: 50px;
+    }
+
+    .contact-area {
+        margin: 0;
+    }
+
+    .client-area .massage-box {
+        width: 80%;
+    }
+
+    .newsletter {
+
+        flex-direction: column;
+    }
+
+    .newsletter .social-img {
+        margin: 0px 0px 30px 0px;
+    }
+
+    .footer-area {
+        padding: 130px 0px 0px 0px;
+        margin: 0;
+    }
+
+    .footer-head {
+
+        justify-content: center;
+
+    }
+
+    .footer-container div {
+        width: 25%;
+    }
+
+    .footer-container div h5 {
+
+        letter-spacing: 0.03em;
+
+    }
+
+    .footer-container {
+        align-items: flex-start;
+        gap: 45px;
+        /* flex-direction: column; */
+        padding: 30px 0%;
+        margin: 100px 5%;
+    }
+}

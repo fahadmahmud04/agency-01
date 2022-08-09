@@ -97,12 +97,17 @@ li {
     cursor: pointer;
 }
 
-.nav-bar ul li:nth-child(6) a {
+.nav-bar ul li:nth-child(6) a,
+.nav-bar ul li:nth-child(7) a {
     border: none;
-
 }
 
-.nav-bar ul li:nth-child(6):hover {
+.nav-bar ul li a i {
+    display: none;
+}
+
+.nav-bar ul li:nth-child(6):hover,
+.nav-bar ul li:nth-child(7):hover {
     transform: translateY(0);
 }
 
@@ -125,20 +130,20 @@ li {
     align-items: center;
     position: absolute;
     z-index: 2;
-    padding: 50px 10% 50px 5%;
+    padding: 50px 5% 50px 5%;
     height: auto;
 
 }
 
 .banner-txt {
-    width: 42%;
+    width: 41%;
     padding: 0px 0px 40px 0px;
     margin: 0px 0px 0px 15px;
     height: auto;
 }
 
 .banner-img {
-    max-width: 48%;
+    max-width: 47%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -161,7 +166,7 @@ li {
 
 .banner-img img {
     width: 70%;
-    height: 100%;
+    height: auto;
     /* vertical-align: middle; */
 }
 
@@ -204,6 +209,8 @@ li {
 .problem-area .problem-heading h2 {
     font-size: 40px;
     font-weight: 900;
+    text-align: center;
+    width: 80%;
 }
 
 .border-head {
@@ -339,6 +346,8 @@ li {
     font-size: 40px;
     font-weight: 900;
     border-bottom: 1px solid #fff;
+    text-align: center;
+    width: 80%;
 }
 
 .why .container p {
@@ -398,11 +407,13 @@ li {
     text-align: center;
     color: #000;
     font-size: 40px;
+    text-align: center;
     font-weight: bold;
+    width: 80%;
 }
 
 .client-area .massage-box {
-    width: 40%;
+    width: 60%;
     border: 1px solid #4b4747;
     border-radius: 5px;
     display: flex;
@@ -467,7 +478,8 @@ li {
 .contact-heading h2 {
     font-size: 40px;
     padding: 20px 0px;
-
+    text-align: center;
+    width: 80%;
 }
 
 .contact-heading p {
@@ -736,6 +748,7 @@ form input[type=tel]:focus {
     justify-content: space-around;
     align-items: center;
     padding: 30px 10% 60px 10%;
+
 }
 
 .newsletter .social-img {
