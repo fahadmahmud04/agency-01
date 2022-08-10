@@ -6,6 +6,14 @@
         font-size: 22px;
     }
 
+    p {
+        font-size: 14px !important;
+    }
+
+    h2 {
+        font-size: 34px !important;
+    }
+
     .nav-bar ul li:nth-child(1),
     .nav-bar ul li:nth-child(2),
     .nav-bar ul li:nth-child(3),
@@ -28,7 +36,7 @@
 
     .hero-area::before {
         top: 95px;
-        height: 80vh;
+        height: 75vh;
         width: 50%;
     }
 
@@ -39,6 +47,7 @@
     .banner-img {
         justify-content: center;
         padding: 0;
+        width: 45%;
     }
 
     .banner-img img {
@@ -115,4 +124,48 @@
         padding: 30px 0%;
         margin: 100px 5%;
     }
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+    header {
+        gap: 100px;
+    }
+
+    .nav-bar ul li a {
+        margin: 0px 10px;
+
+    }
+
+    .hero-area {
+        height: 100vh;
+    }
+
+    .hero-area::before {
+        width: 55%;
+        height: 90vh;
+        top: 50px;
+    }
+
+    .banner-img {
+        max-width: 50%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .banner-area {
+        justify-content: center;
+    }
+
+    .service-area {
+        height: 210vh;
+        padding-bottom: 0;
+
+    }
+
+    .service-heading {
+        margin: 50px 10px 65px 10px;
+    }
+
+
+
 }
