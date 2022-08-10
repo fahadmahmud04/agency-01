@@ -43,7 +43,7 @@ a {
     background: linear-gradient(to right, #9859fc, #203376);
     background-position: center;
     background-size: cover;
-    height: 94vh;
+    min-height: 94vh;
 
 }
 
@@ -332,6 +332,10 @@ li {
 .why {
     background: linear-gradient(to right, #1b3374, #8f4fe8);
     color: #fff;
+}
+
+#br-why {
+    display: none;
 }
 
 .why .container {
@@ -716,12 +720,14 @@ form input[type=tel]:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .footer-container div h5 {
     font-size: 20px;
     letter-spacing: 0.08em;
     margin: 0px 0px 20px 0px;
+    text-align: center;
 }
 
 .footer-container div a,
