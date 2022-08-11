@@ -1,5 +1,5 @@
 /* code for max 1200px */
-@media (min-width:200px) and (max-width: 1200px) {
+@media (min-width:0px) and (max-width: 1200px) {
     header {
         gap: 100px;
     }
@@ -30,8 +30,8 @@
     }
 
     .service-area {
-        height: 210vh;
-        padding-bottom: 0;
+        height: auto;
+        padding: 220px 0px 200px 0px;
 
     }
 
@@ -41,7 +41,7 @@
 }
 
 /* tebelet responsive */
-@media (min-width: 200px) and (max-width: 991px) {
+@media (min-width: 0px) and (max-width: 991px) {
 
     .nav-bar ul li a i {
         display: initial;
@@ -107,9 +107,10 @@
         margin: 0;
     }
 
+    /* 
     .service-area {
         padding: 220px 0px 100px 0px;
-    }
+    } */
 
     .contact-area {
         margin: 0;
@@ -159,7 +160,7 @@
 }
 
 /* mobile responsive */
-@media (min-width: 200px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
     header {
         gap: initial;
     }
@@ -255,7 +256,7 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 425px) {
     header {
         padding-right: 10px;
     }
@@ -359,7 +360,7 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 700px) {
+@media (min-width: 0px) and (max-width: 700px) {
     .hero-area::before {
         height: 45%;
         top: 90%;
@@ -372,7 +373,7 @@
     }
 
     header a h2 {
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
 
     .nav-bar ul li a i {
