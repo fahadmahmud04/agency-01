@@ -29,11 +29,10 @@
         justify-content: center;
     }
 
-    .service-area {
-        height: auto;
+    /* .service-area {
         padding: 220px 0px 200px 0px;
 
-    }
+    } */
 
     .service-heading {
         margin: 50px 10px 65px 10px;
@@ -56,6 +55,13 @@
         font-size: 34px !important;
     }
 
+    .read-btn,
+    button,
+    .welc-btn,
+    .problem-btn {
+        font-size: 16px;
+    }
+
     .nav-bar ul li:nth-child(1),
     .nav-bar ul li:nth-child(2),
     .nav-bar ul li:nth-child(3),
@@ -67,6 +73,11 @@
     header {
         justify-content: space-between;
         gap: 460px;
+    }
+
+    header a h2 {
+        font-size: 28px !important;
+
     }
 
     .nav-bar ul li a {
@@ -165,6 +176,11 @@
         gap: initial;
     }
 
+    header a h2 {
+        font-size: 26px !important;
+
+    }
+
     .hero-area::before {
         height: 50%;
         background-size: cover;
@@ -213,14 +229,18 @@
     }
 
     .service-area {
-        background-size: cover;
-        height: auto;
         padding: 50px 0px;
+        background-size: cover;
     }
 
     .service-heading {
         margin: 0;
-        padding: 30px 10px 80px 10px;
+        padding: 30px 20% 80px 20%;
+    }
+
+    .service-heading h2 {
+        color: #000000;
+        border-bottom: 2px solid #000;
     }
 
     .items-1,
