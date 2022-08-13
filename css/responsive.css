@@ -1,27 +1,12 @@
 /* code for max 1200px */
 @media (min-width:0px) and (max-width: 1200px) {
-    header {
-        gap: 100px;
-    }
-
     .nav-bar ul li a {
         margin: 0px 10px;
 
     }
 
-    /* 
-    .hero-area {
-        height: 100vh;
-    } */
-
-    /* .hero-area::before {
-        width: 55%;
-        height: 90vh;
-        top: 50px;
-    } */
-
     .banner-img {
-        max-width: 50%;
+        width: 50%;
         justify-content: center;
         padding: 0;
     }
@@ -29,11 +14,6 @@
     .banner-area {
         justify-content: center;
     }
-
-    /* .service-area {
-        padding: 220px 0px 200px 0px;
-
-    } */
 
     .service-heading {
         margin: 50px 10px 65px 10px;
@@ -75,7 +55,8 @@
 
     header {
         justify-content: space-between;
-        gap: 460px;
+        gap: 60vw;
+        padding: 15px 30px;
     }
 
     header a h2 {
@@ -90,11 +71,9 @@
 
     }
 
-    /* .hero-area::before {
-        top: 95px;
-        height: 75vh;
-        width: 50%;
-    } */
+    .banner-img::before {
+        height: 70%;
+    }
 
     .banner-txt h1 {
         font-size: 40px;
@@ -106,24 +85,11 @@
         width: 45%;
     }
 
-    .banner-img img {
-        width: 75%;
-    }
-
-
-    /* .hero-area {
-        height: 100vh;
-    } */
 
     .banner-area {
         justify-content: center;
-        margin: 0;
+        padding-bottom: 50px;
     }
-
-    /* 
-    .service-area {
-        padding: 220px 0px 100px 0px;
-    } */
 
     .contact-area {
         margin: 0;
@@ -185,19 +151,17 @@
 
     }
 
-    /* .hero-area::before {
-        height: 50%;
-        background-size: cover;
-        background-position: center;
-        z-index: 0;
-        left: 30%;
-        top: 88%;
-        transform: scale(1.5);
-    } */
+    .banner-img::before {
+        right: 0;
+        width: 85%;
+        height: 80%;
+    }
 
-    /* .hero-area {
-        height: 150vh;
-    } */
+    .banner-img {
+        justify-content: center;
+        width: 60%;
+
+    }
 
     .banner-area {
         flex-direction: column;
@@ -280,9 +244,25 @@
     }
 }
 
+/* ========== banner before elements extra query======== */
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .banner-img::before {
+
+        width: 90%;
+        height: 72%;
+    }
+
+    .banner-img {
+        width: 65%;
+
+    }
+
+}
+
 /* +++++ mobile large media query ++++ */
 
-@media (min-width: 0px) and (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 475px) {
     header {
         padding-right: 10px;
     }
@@ -310,19 +290,15 @@
         padding: 10px 30px !important;
     }
 
-    .footer-form form input {
-        padding: 10px 10%;
-        font-size: 14px !important;
+    .banner-img::before {
+        right: 0;
+        width: 90%;
+        height: 60%;
     }
 
-    /* .hero-area {
-        height: 130vh;
-    } */
-
-    /* .hero-area::before {
-        height: 30% !important;
-
-    } */
+    .banner-img {
+        width: 60%;
+    }
 
     .welcome-area,
     .problem-area {
@@ -335,12 +311,6 @@
 
     .service-area {
         padding-top: 20px;
-    }
-
-    .banner-img {
-        width: 50%;
-        /* padding: 100px 0px 0px 0px; */
-
     }
 
     .contact-area {
@@ -356,6 +326,12 @@
     .items-3 {
         width: 80%;
     }
+
+    .footer-form form input {
+        padding: 10px 10%;
+        font-size: 14px !important;
+    }
+
 
     .footer-container {
         align-items: center;
@@ -410,6 +386,17 @@
 
     .nav-bar ul li a i {
         font-size: 20px;
+    }
+
+    .banner-img::before {
+
+        width: 98%;
+        height: 50%;
+    }
+
+    .banner-img {
+        width: 75%;
+
     }
 
     .form-content .left-side .details i {

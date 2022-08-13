@@ -58,7 +58,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 250px;
+    gap: 20vw;
 }
 
 header a h2 {
@@ -116,45 +116,59 @@ li {
     transform: translateY(0px);
 }
 
+
+.banner-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 3% 100px 6%;
+    height: auto;
+    gap: 50px;
+}
+
+.banner-txt {
+    width: 42%;
+    padding: 0px 0px 40px 0px;
+    /* margin: 0px 0px 0px 15px; */
+    height: auto;
+}
+
 .banner-img::before {
     content: '';
     background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-size: cover;
     position: absolute;
-    /* top: 30px;
+    /* top: 30px;*/
     right: 0;
-    width: 58%;
-    height: 87%; */
+    width: 49%;
+    height: 83%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 0;
 }
 
 
-.banner-area {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 100px 5% 100px 5%;
-    height: auto;
-
-}
-
-.banner-txt {
-    width: 41%;
-    padding: 0px 0px 40px 0px;
-    margin: 0px 0px 0px 15px;
-    height: auto;
-}
-
 .banner-img {
-    width: 47%;
+    width: 49%;
     display: flex;
-
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
-    padding: 90px 30px 0px 0px;
+    padding: 50px 0px 0px 0px;
+
 
 }
+
+.banner-img img {
+    width: 72%;
+    height: auto;
+    z-index: 1;
+    padding: 50px 0px 0px 0px;
+    position: relative;
+
+    /* vertical-align: middle; */
+}
+
 
 .banner-txt h1 {
     color: #fff;
@@ -170,11 +184,6 @@ li {
     font-size: 16px;
 }
 
-.banner-img img {
-    width: 70%;
-    height: auto;
-    /* vertical-align: middle; */
-}
 
 .read-btn {
     font-size: 18px;
