@@ -92,7 +92,7 @@
 
     .banner-area {
         justify-content: center;
-       /* padding-bottom: 5rem;*/
+        padding-bottom: 5rem;
     }
 
     .contact-area {
@@ -425,6 +425,7 @@
     }
 
     .banner-img {
+        margin: 1rem 0rem;
         width: 75%;
 
     }
@@ -444,7 +445,7 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 375px) {
+@media (min-width: 200px) and (max-width: 300px) {
     html {
         font-size: 47.5%;
     }
