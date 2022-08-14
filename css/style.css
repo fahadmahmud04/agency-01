@@ -102,7 +102,7 @@ li {
 .read-btn:hover,
 .welc-btn:hover,
 .problem-btn:hover {
-    transform: translateY(-3rem);
+    transform: translateY(-0.3rem);
 }
 
 .nav-bar a img {
